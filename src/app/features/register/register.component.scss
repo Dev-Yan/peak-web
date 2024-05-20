@@ -1,0 +1,36 @@
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.form-content {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.indicator{
+  margin-left: 40%;
+}
+
+.form-group {
+  margin-bottom: 2rem;
+}
+
+.form-group input {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+button {
+  justify-content: center;
+  width: 20%;
+  height: 36px;
+  font-size: 14px;
+  margin-left: 40%;
+}

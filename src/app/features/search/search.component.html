@@ -1,0 +1,13 @@
+<h1 class="title">Buscar pessoa</h1>
+
+<div class="input-group custom-search">
+  <input class="form-control input-sm custom-search-input"
+         placeholder="Insira o id aqui"
+         type="search"
+        [(ngModel)]="valueSearchPerson"
+        (keyup.enter)="getPersonById()">
+
+        <i class="btn fas fa-search custom-search-botton" type="button" (click)="getPersonById()"></i>
+</div>
+
+<p class="title" *ngIf="personFound$ | async as person">Pessoa encontrada: <strong>{{ person.name }}</strong></p>
