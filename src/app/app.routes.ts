@@ -9,7 +9,7 @@ export const routes: Routes = [
     title: 'Buscar nome',
   },
   {
-    path: 'register',
+    path: '',
     component: RegisterComponent,
     title: 'Cadastro de Parcelas'
   },
